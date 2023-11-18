@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A394F9D2A6EF80200216DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394F9C2A6EF80200216DD4 /* AppDelegate.swift */; };
+		1A394F9F2A6EF80200216DD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394F9E2A6EF80200216DD4 /* SceneDelegate.swift */; };
+		1A394FA62A6EF80400216DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A394FA52A6EF80400216DD4 /* Assets.xcassets */; };
+		1A394FA92A6EF80400216DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A394FA72A6EF80400216DD4 /* LaunchScreen.storyboard */; };
+		1A394FB12A6EFCEE00216DD4 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FB02A6EFCEE00216DD4 /* Resources.swift */; };
+		1A394FB32A6EFEE800216DD4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A394FB22A6EFEE800216DD4 /* Roboto-Bold.ttf */; };
+		1A394FB52A6EFF4600216DD4 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A394FB42A6EFF4600216DD4 /* Roboto-Regular.ttf */; };
+		1A394FBA2A6F002A00216DD4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FB92A6F002A00216DD4 /* MenuViewController.swift */; };
+		1A394FBC2A6F003D00216DD4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FBB2A6F003D00216DD4 /* MenuView.swift */; };
+		1A394FBF2A6F00C100216DD4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A394FBE2A6F00C100216DD4 /* SnapKit */; };
+		1A394FC12A6F12BA00216DD4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FC02A6F12BA00216DD4 /* SettingsViewController.swift */; };
+		1A394FC32A6F12D200216DD4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FC22A6F12D200216DD4 /* SettingsView.swift */; };
+		1A394FC52A6F337500216DD4 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FC42A6F337500216DD4 /* RulesViewController.swift */; };
+		1A394FC72A6F338900216DD4 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FC62A6F338900216DD4 /* RulesView.swift */; };
+		1A394FC92A7001D400216DD4 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FC82A7001D400216DD4 /* BoardView.swift */; };
+		1A394FCB2A70025C00216DD4 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FCA2A70025C00216DD4 /* BoardViewController.swift */; };
+		1A394FCD2A70041E00216DD4 /* BoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FCC2A70041E00216DD4 /* BoardTableViewCell.swift */; };
+		1A394FCF2A70091A00216DD4 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FCE2A70091A00216DD4 /* Board.swift */; };
+		1A394FD12A70183D00216DD4 /* GameIsEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FD02A70183D00216DD4 /* GameIsEndViewController.swift */; };
+		1A394FD32A70185300216DD4 /* GameIsEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A394FD22A70185300216DD4 /* GameIsEndView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A394F992A6EF80200216DD4 /* Autobahn Rush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autobahn Rush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A394F9C2A6EF80200216DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A394F9E2A6EF80200216DD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A394FA52A6EF80400216DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A394FA82A6EF80400216DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A394FAA2A6EF80400216DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A394FB02A6EFCEE00216DD4 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		1A394FB22A6EFEE800216DD4 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		1A394FB42A6EFF4600216DD4 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		1A394FB92A6F002A00216DD4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1A394FBB2A6F003D00216DD4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		1A394FC02A6F12BA00216DD4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1A394FC22A6F12D200216DD4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1A394FC42A6F337500216DD4 /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		1A394FC62A6F338900216DD4 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		1A394FC82A7001D400216DD4 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		1A394FCA2A70025C00216DD4 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		1A394FCC2A70041E00216DD4 /* BoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTableViewCell.swift; sourceTree = "<group>"; };
+		1A394FCE2A70091A00216DD4 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		1A394FD02A70183D00216DD4 /* GameIsEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIsEndViewController.swift; sourceTree = "<group>"; };
+		1A394FD22A70185300216DD4 /* GameIsEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIsEndView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A394F962A6EF80200216DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A394FBF2A6F00C100216DD4 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A394F902A6EF80200216DD4 = {
+			isa = PBXGroup;
+			children = (
+				1A394F9B2A6EF80200216DD4 /* Autobahn Rush */,
+				1A394F9A2A6EF80200216DD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A394F9A2A6EF80200216DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A394F992A6EF80200216DD4 /* Autobahn Rush.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A394F9B2A6EF80200216DD4 /* Autobahn Rush */ = {
+			isa = PBXGroup;
+			children = (
+				1A394FB62A6EFFDE00216DD4 /* Model */,
+				1A394FB72A6EFFE500216DD4 /* View */,
+				1A394FB82A6EFFEE00216DD4 /* Controller */,
+				1A394F9E2A6EF80200216DD4 /* SceneDelegate.swift */,
+				1A394F9C2A6EF80200216DD4 /* AppDelegate.swift */,
+				1A394FA52A6EF80400216DD4 /* Assets.xcassets */,
+				1A394FA72A6EF80400216DD4 /* LaunchScreen.storyboard */,
+				1A394FAA2A6EF80400216DD4 /* Info.plist */,
+				1A394FB02A6EFCEE00216DD4 /* Resources.swift */,
+				1A394FB22A6EFEE800216DD4 /* Roboto-Bold.ttf */,
+				1A394FB42A6EFF4600216DD4 /* Roboto-Regular.ttf */,
+			);
+			path = "Autobahn Rush";
+			sourceTree = "<group>";
+		};
+		1A394FB62A6EFFDE00216DD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A394FCE2A70091A00216DD4 /* Board.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A394FB72A6EFFE500216DD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A394FBB2A6F003D00216DD4 /* MenuView.swift */,
+				1A394FC22A6F12D200216DD4 /* SettingsView.swift */,
+				1A394FC62A6F338900216DD4 /* RulesView.swift */,
+				1A394FC82A7001D400216DD4 /* BoardView.swift */,
+				1A394FCC2A70041E00216DD4 /* BoardTableViewCell.swift */,
+				1A394FD22A70185300216DD4 /* GameIsEndView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A394FB82A6EFFEE00216DD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A394FB92A6F002A00216DD4 /* MenuViewController.swift */,
+				1A394FC02A6F12BA00216DD4 /* SettingsViewController.swift */,
+				1A394FC42A6F337500216DD4 /* RulesViewController.swift */,
+				1A394FCA2A70025C00216DD4 /* BoardViewController.swift */,
+				1A394FD02A70183D00216DD4 /* GameIsEndViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A394F982A6EF80200216DD4 /* Autobahn Rush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A394FAD2A6EF80400216DD4 /* Build configuration list for PBXNativeTarget "Autobahn Rush" */;
+			buildPhases = (
+				1A394F952A6EF80200216DD4 /* Sources */,
+				1A394F962A6EF80200216DD4 /* Frameworks */,
+				1A394F972A6EF80200216DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Autobahn Rush";
+			packageProductDependencies = (
+				1A394FBE2A6F00C100216DD4 /* SnapKit */,
+			);
+			productName = "Autobahn Rush";
+			productReference = 1A394F992A6EF80200216DD4 /* Autobahn Rush.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A394F912A6EF80200216DD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1A394F982A6EF80200216DD4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 1A394F942A6EF80200216DD4 /* Build configuration list for PBXProject "Autobahn Rush" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A394F902A6EF80200216DD4;
+			packageReferences = (
+				1A394FBD2A6F00C100216DD4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 1A394F9A2A6EF80200216DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A394F982A6EF80200216DD4 /* Autobahn Rush */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A394F972A6EF80200216DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A394FA92A6EF80400216DD4 /* LaunchScreen.storyboard in Resources */,
+				1A394FA62A6EF80400216DD4 /* Assets.xcassets in Resources */,
+				1A394FB52A6EFF4600216DD4 /* Roboto-Regular.ttf in Resources */,
+				1A394FB32A6EFEE800216DD4 /* Roboto-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A394F952A6EF80200216DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A394FC92A7001D400216DD4 /* BoardView.swift in Sources */,
+				1A394FC32A6F12D200216DD4 /* SettingsView.swift in Sources */,
+				1A394FBC2A6F003D00216DD4 /* MenuView.swift in Sources */,
+				1A394FCF2A70091A00216DD4 /* Board.swift in Sources */,
+				1A394FC12A6F12BA00216DD4 /* SettingsViewController.swift in Sources */,
+				1A394FD32A70185300216DD4 /* GameIsEndView.swift in Sources */,
+				1A394FC52A6F337500216DD4 /* RulesViewController.swift in Sources */,
+				1A394FBA2A6F002A00216DD4 /* MenuViewController.swift in Sources */,
+				1A394FC72A6F338900216DD4 /* RulesView.swift in Sources */,
+				1A394FCD2A70041E00216DD4 /* BoardTableViewCell.swift in Sources */,
+				1A394FB12A6EFCEE00216DD4 /* Resources.swift in Sources */,
+				1A394F9D2A6EF80200216DD4 /* AppDelegate.swift in Sources */,
+				1A394FD12A70183D00216DD4 /* GameIsEndViewController.swift in Sources */,
+				1A394F9F2A6EF80200216DD4 /* SceneDelegate.swift in Sources */,
+				1A394FCB2A70025C00216DD4 /* BoardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A394FA72A6EF80400216DD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A394FA82A6EF80400216DD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A394FAB2A6EF80400216DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A394FAC2A6EF80400216DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A394FAE2A6EF80400216DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Autobahn Rush/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aleksandr.Autobahn-Rush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A394FAF2A6EF80400216DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Autobahn Rush/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aleksandr.Autobahn-Rush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A394F942A6EF80200216DD4 /* Build configuration list for PBXProject "Autobahn Rush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A394FAB2A6EF80400216DD4 /* Debug */,
+				1A394FAC2A6EF80400216DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A394FAD2A6EF80400216DD4 /* Build configuration list for PBXNativeTarget "Autobahn Rush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A394FAE2A6EF80400216DD4 /* Debug */,
+				1A394FAF2A6EF80400216DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A394FBD2A6F00C100216DD4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A394FBE2A6F00C100216DD4 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A394FBD2A6F00C100216DD4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1A394F912A6EF80200216DD4 /* Project object */;
+}
